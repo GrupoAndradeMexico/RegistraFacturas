@@ -1,0 +1,11 @@
+C:\AndradeGPO\ActualizarCampoEnBP\RegistraSalida\RegistraSalidaCentralizado\RegistraFactura\obj\Debug\RegistraFactura.DialogMensaje.resources
+C:\AndradeGPO\ActualizarCampoEnBP\RegistraSalida\RegistraSalidaCentralizado\RegistraFactura\obj\Debug\RegistraFactura.espera.resources
+C:\AndradeGPO\ActualizarCampoEnBP\RegistraSalida\RegistraSalidaCentralizado\RegistraFactura\obj\Debug\RegistraFactura.Form1.resources
+C:\AndradeGPO\ActualizarCampoEnBP\RegistraSalida\RegistraSalidaCentralizado\RegistraFactura\obj\Debug\RegistraFactura.Properties.Resources.resources
+C:\AndradeGPO\ActualizarCampoEnBP\RegistraSalida\RegistraSalidaCentralizado\RegistraFactura\obj\Debug\RegistraFactura.csproj.GenerateResource.Cache
+C:\AndradeGPO\ActualizarCampoEnBP\RegistraSalida\RegistraSalidaCentralizado\RegistraFactura\obj\Debug\RegistraFactura.exe
+C:\AndradeGPO\ActualizarCampoEnBP\RegistraSalida\RegistraSalidaCentralizado\RegistraFactura\obj\Debug\RegistraFactura.pdb
+C:\AndradeGPO\ActualizarCampoEnBP\RegistraSalida\RegistraSalidaCentralizado\RegistraFactura\bin\Debug\RegistraFactura.exe.config
+C:\AndradeGPO\ActualizarCampoEnBP\RegistraSalida\RegistraSalidaCentralizado\RegistraFactura\bin\Debug\RegistraFactura.exe
+C:\AndradeGPO\ActualizarCampoEnBP\RegistraSalida\RegistraSalidaCentralizado\RegistraFactura\bin\Debug\RegistraFactura.pdb
+C:\AndradeGPO\ActualizarCampoEnBP\RegistraSalida\RegistraSalidaCentralizado\RegistraFactura\obj\Debug\RegistraFactura.csprojResolveAssemblyReference.cache

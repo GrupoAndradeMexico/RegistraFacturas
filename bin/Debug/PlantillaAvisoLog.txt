@@ -1,0 +1,5 @@
+Siendo las [hora] horas del dia [fecha], se registro el siguiente Log de ejecucion.
+
+[LogEjecucion]
+
+Favor de verificar a la brevedad.

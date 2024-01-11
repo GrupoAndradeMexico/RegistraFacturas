@@ -1,0 +1,2 @@
+"IdDistribuidor","Factura","Vin"
+"010337","BA000001971","3MDDJBSV8KM315554"

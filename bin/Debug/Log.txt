@@ -1,0 +1,227 @@
+﻿ 
+07/10/2021 06:18:34 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt TESTVPI0000001506, desde: ProcesaBitacora
+ 
+ 
+07/10/2021 06:28:16 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt TESTVPI0000001506, desde: ProcesaBitacora
+ 
+08/10/2021 02:37:01 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 3N1CN8AE3ML904198, desde: ProcesaBitacora
+08/10/2021 02:45:40 p.m.	Se Envió el archivo a la carpeta de SICOP : E:\LB\Sicop\ZARAGOZA\\SICOP_VENTAS_TEMP_DMS_3N1CN8AE1LL879252_AA000043428.TXT, desde: fsw_Created
+08/10/2021 02:46:11 p.m.	Se borra el archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\SICOP_VENTAS_TEMP_DMS_3N1CN8AE1LL879252_AA000043428.TXT, desde: fsw_Created
+ 
+ 
+08/10/2021 03:09:43 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 3N1CN8AE1LL879252, desde: ProcesaBitacora
+08/10/2021 03:10:43 p.m.	Se Envió el archivo a la carpeta de SICOP : E:\LB\Sicop\ZARAGOZA\\SICOP_VENTAS_TEMP_DMS_3N1CN8AE1LL879252_AA000043428.TXT, desde: fsw_Created
+08/10/2021 03:10:44 p.m.	Se borra el archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\SICOP_VENTAS_TEMP_DMS_3N1CN8AE1LL879252_AA000043428.TXT, desde: fsw_Created
+ 
+08/10/2021 03:11:05 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 876TGBNJI877UJH66, desde: ProcesaBitacora
+08/10/2021 03:12:05 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:12:05 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042647 vin: 876TGBNJI877UJH66 id_local: 6 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:12:26 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGBHUY765ERT11, desde: ProcesaBitacora
+08/10/2021 03:13:26 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:13:26 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042648 vin: 65RFGBHUY765ERT11 id_local: 7 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:13:48 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 765RFVGHU765R1222, desde: ProcesaBitacora
+08/10/2021 03:14:48 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:14:48 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042649 vin: 765RFVGHU765R1222 id_local: 8 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:15:09 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 87YUIKJHY76RT6RT4, desde: ProcesaBitacora
+08/10/2021 03:16:09 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:16:09 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042650 vin: 87YUIKJHY76RT6RT4 id_local: 14 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:16:30 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt UR8RUR8RUR8RUR87, desde: ProcesaBitacora
+08/10/2021 03:17:30 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:17:30 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042651 vin: UR8RUR8RUR8RUR87 id_local: 17 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:17:51 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGHU7656776T11, desde: ProcesaBitacora
+08/10/2021 03:18:51 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:18:51 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042652 vin: 65RFGHU7656776T11 id_local: 18 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:19:12 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGHU7654E3EG22, desde: ProcesaBitacora
+08/10/2021 03:20:12 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:20:12 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042653 vin: 65RFGHU7654E3EG22 id_local: 19 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:20:35 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 76TGJI876TR76TYU8, desde: ProcesaBitacora
+08/10/2021 03:21:35 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:21:35 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042654 vin: 76TGJI876TR76TYU8 id_local: 24 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:21:56 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGHU765456YH33, desde: ProcesaBitacora
+08/10/2021 03:22:56 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:22:56 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042655 vin: 65RFGHU765456YH33 id_local: 25 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:23:17 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 765RFGHU765R544R5, desde: ProcesaBitacora
+08/10/2021 03:24:17 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:24:17 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042656 vin: 765RFGHU765R544R5 id_local: 26 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:24:54 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 876TGBNJI877UJH66, desde: ProcesaBitacora
+08/10/2021 03:25:54 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:25:54 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042647 vin: 876TGBNJI877UJH66 id_local: 6 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:26:15 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGBHUY765ERT11, desde: ProcesaBitacora
+08/10/2021 03:27:15 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:27:15 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042648 vin: 65RFGBHUY765ERT11 id_local: 7 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:27:37 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 765RFVGHU765R1222, desde: ProcesaBitacora
+08/10/2021 03:28:37 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:28:37 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042649 vin: 765RFVGHU765R1222 id_local: 8 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:28:57 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 87YUIKJHY76RT6RT4, desde: ProcesaBitacora
+08/10/2021 03:29:57 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:29:57 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042650 vin: 87YUIKJHY76RT6RT4 id_local: 14 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:30:18 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt UR8RUR8RUR8RUR87, desde: ProcesaBitacora
+08/10/2021 03:31:18 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:31:18 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042651 vin: UR8RUR8RUR8RUR87 id_local: 17 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:31:38 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGHU7656776T11, desde: ProcesaBitacora
+08/10/2021 03:32:38 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:32:38 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042652 vin: 65RFGHU7656776T11 id_local: 18 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:32:59 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGHU7654E3EG22, desde: ProcesaBitacora
+08/10/2021 03:33:59 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:33:59 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042653 vin: 65RFGHU7654E3EG22 id_local: 19 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:34:20 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 76TGJI876TR76TYU8, desde: ProcesaBitacora
+08/10/2021 03:35:20 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:35:20 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042654 vin: 76TGJI876TR76TYU8 id_local: 24 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:35:41 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGHU765456YH33, desde: ProcesaBitacora
+08/10/2021 03:36:41 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:36:41 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042655 vin: 65RFGHU765456YH33 id_local: 25 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:37:02 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 765RFGHU765R544R5, desde: ProcesaBitacora
+08/10/2021 03:38:02 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:38:02 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042656 vin: 765RFGHU765R544R5 id_local: 26 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:38:23 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 876TGBNJI877UJH66, desde: ProcesaBitacora
+08/10/2021 03:39:23 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:39:23 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042647 vin: 876TGBNJI877UJH66 id_local: 6 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:39:43 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGBHUY765ERT11, desde: ProcesaBitacora
+08/10/2021 03:40:43 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:40:43 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042648 vin: 65RFGBHUY765ERT11 id_local: 7 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:41:04 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 765RFVGHU765R1222, desde: ProcesaBitacora
+08/10/2021 03:42:04 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:42:04 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042649 vin: 765RFVGHU765R1222 id_local: 8 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:42:25 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 87YUIKJHY76RT6RT4, desde: ProcesaBitacora
+08/10/2021 03:43:25 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:43:25 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042650 vin: 87YUIKJHY76RT6RT4 id_local: 14 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:43:45 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt UR8RUR8RUR8RUR87, desde: ProcesaBitacora
+08/10/2021 03:44:45 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:44:45 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042651 vin: UR8RUR8RUR8RUR87 id_local: 17 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:45:06 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGHU7656776T11, desde: ProcesaBitacora
+08/10/2021 03:46:06 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:46:06 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042652 vin: 65RFGHU7656776T11 id_local: 18 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:46:27 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGHU7654E3EG22, desde: ProcesaBitacora
+08/10/2021 03:47:27 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:47:27 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042653 vin: 65RFGHU7654E3EG22 id_local: 19 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:47:47 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 76TGJI876TR76TYU8, desde: ProcesaBitacora
+08/10/2021 03:48:47 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:48:47 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042654 vin: 76TGJI876TR76TYU8 id_local: 24 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:49:08 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGHU765456YH33, desde: ProcesaBitacora
+08/10/2021 03:50:08 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:50:08 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042655 vin: 65RFGHU765456YH33 id_local: 25 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:50:33 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 765RFGHU765R544R5, desde: ProcesaBitacora
+08/10/2021 03:51:33 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:51:33 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042656 vin: 765RFGHU765R544R5 id_local: 26 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:51:56 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 876TGBNJI877UJH66, desde: ProcesaBitacora
+08/10/2021 03:52:56 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:52:56 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042647 vin: 876TGBNJI877UJH66 id_local: 6 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:53:18 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGBHUY765ERT11, desde: ProcesaBitacora
+08/10/2021 03:54:18 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:54:18 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042648 vin: 65RFGBHUY765ERT11 id_local: 7 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:54:38 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 765RFVGHU765R1222, desde: ProcesaBitacora
+08/10/2021 03:55:39 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:55:39 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042649 vin: 765RFVGHU765R1222 id_local: 8 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:55:59 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 87YUIKJHY76RT6RT4, desde: ProcesaBitacora
+08/10/2021 03:56:59 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:56:59 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042650 vin: 87YUIKJHY76RT6RT4 id_local: 14 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:57:20 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt UR8RUR8RUR8RUR87, desde: ProcesaBitacora
+08/10/2021 03:58:20 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:58:20 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042651 vin: UR8RUR8RUR8RUR87 id_local: 17 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 03:58:43 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGHU7656776T11, desde: ProcesaBitacora
+08/10/2021 03:59:43 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 03:59:43 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042652 vin: 65RFGHU7656776T11 id_local: 18 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:00:03 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGHU7654E3EG22, desde: ProcesaBitacora
+08/10/2021 04:01:03 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:01:03 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042653 vin: 65RFGHU7654E3EG22 id_local: 19 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:01:25 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 76TGJI876TR76TYU8, desde: ProcesaBitacora
+08/10/2021 04:02:25 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:02:25 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042654 vin: 76TGJI876TR76TYU8 id_local: 24 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:02:48 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGHU765456YH33, desde: ProcesaBitacora
+08/10/2021 04:03:48 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:03:48 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042655 vin: 65RFGHU765456YH33 id_local: 25 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:04:09 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 765RFGHU765R544R5, desde: ProcesaBitacora
+08/10/2021 04:05:09 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:05:09 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042656 vin: 765RFGHU765R544R5 id_local: 26 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:05:36 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 876TGBNJI877UJH66, desde: ProcesaBitacora
+08/10/2021 04:06:36 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:06:36 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042647 vin: 876TGBNJI877UJH66 id_local: 6 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:06:57 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGBHUY765ERT11, desde: ProcesaBitacora
+08/10/2021 04:07:57 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:07:57 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042648 vin: 65RFGBHUY765ERT11 id_local: 7 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:08:19 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 765RFVGHU765R1222, desde: ProcesaBitacora
+08/10/2021 04:09:19 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:09:19 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042649 vin: 765RFVGHU765R1222 id_local: 8 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:09:41 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 87YUIKJHY76RT6RT4, desde: ProcesaBitacora
+08/10/2021 04:10:41 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:10:41 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042650 vin: 87YUIKJHY76RT6RT4 id_local: 14 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:11:01 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt UR8RUR8RUR8RUR87, desde: ProcesaBitacora
+08/10/2021 04:12:01 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:12:01 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042651 vin: UR8RUR8RUR8RUR87 id_local: 17 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:12:22 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGHU7656776T11, desde: ProcesaBitacora
+08/10/2021 04:13:22 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:13:22 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042652 vin: 65RFGHU7656776T11 id_local: 18 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:13:42 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGHU7654E3EG22, desde: ProcesaBitacora
+08/10/2021 04:14:42 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:14:42 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042653 vin: 65RFGHU7654E3EG22 id_local: 19 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:15:03 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 76TGJI876TR76TYU8, desde: ProcesaBitacora
+08/10/2021 04:16:03 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:16:03 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042654 vin: 76TGJI876TR76TYU8 id_local: 24 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:16:24 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGHU765456YH33, desde: ProcesaBitacora
+08/10/2021 04:17:24 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:17:24 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042655 vin: 65RFGHU765456YH33 id_local: 25 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:17:45 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 765RFGHU765R544R5, desde: ProcesaBitacora
+08/10/2021 04:18:45 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:18:45 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042656 vin: 765RFGHU765R544R5 id_local: 26 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:19:06 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 876TGBNJI877UJH66, desde: ProcesaBitacora
+08/10/2021 04:20:06 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:20:06 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042647 vin: 876TGBNJI877UJH66 id_local: 6 id_agencia: 09, desde: ProcesaBitacora
+ 
+08/10/2021 04:20:31 p.m.	Se ejecutó: "E:\LB\PROGRAMAS\EjecutableBP\NISSANZAR\BusinessProSICOPZAR.exe" SICOP GMI GAZM_Zaragoza Exporta E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\ parametro_ocioso.txt 65RFGBHUY765ERT11, desde: ProcesaBitacora
+08/10/2021 04:21:31 p.m.	El archivo: E:\LB\PROGRAMAS\RegistraSalida\ZARRecibidos\VentasBPro\\SICOP_VENTAS_TEMP_DMS.txt no existe, desde: procesaArchivoGeneradoporBPro
+08/10/2021 04:21:31 p.m.	No se creo el archivo de Facturacion en la carpeta SEEKOP Factura: AA000042648 vin: 65RFGBHUY765ERT11 id_local: 7 id_agencia: 09, desde: ProcesaBitacora
+ 
+ 
+ 
+ 
+02/05/2023 12:54:22 p.m.	ES DESFLOTE: No se creá el archivo de Facturacion en la carpeta SEEKOP Factura: BC000000214 vin: 3N1CN7AD0JK437020 id_local: 36076 id_agencia: 38, desde: ProcesaBitacora
