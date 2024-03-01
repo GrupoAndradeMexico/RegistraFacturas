@@ -1088,19 +1088,25 @@ namespace RegistraFactura
                                 ArchivoRenombrado = Archivo.Name.Trim();
                                 string nuevaruta = CarpetaRemota + "\\" + ArchivoRenombrado.Trim();
                                 string rutareal = ""; //ConsultaCarpetaDestino(idprospenarchivo.Trim()); //20200514
-                                if (tipoventa.IndexOf("INTERCAMBIOS")>-1) 
+                                bool isIntercambio = false;
+                                bool isFlotilla = false;
+                                if (tipoventa.IndexOf("INTERCAMBIOS") >- 1) 
                                 {
+                                    isIntercambio = true;
                                     rutareal = Application.StartupPath + "\\Procesados\\INTERCAMBIOS"; //+ tipoventa.Trim();
                                 }
                                 if (tipoventa.IndexOf("FLOTILLA") > -1)
                                 {
+                                    isFlotilla = true;
                                     rutareal = Application.StartupPath + "\\Procesados\\FLOTILLAS"; //+ tipoventa.Trim();
                                 }
 
                                 //20200514
-                                tipo_auto = facturaenarchivo.Substring(0, 1) == "A" ? "Nuevo" : "Seminuevo"; 
+                                tipo_auto = facturaenarchivo.Substring(0, 1) == "A" ? "Nuevo" : "Seminuevo";
 
-                                rutareal = tipo_auto.Trim() == "Seminuevo" ? CarpetaRemota + "\\SEMINUEVOS" : "";     
+                                if (!isIntercambio && !isFlotilla) {
+                                    rutareal = tipo_auto.Trim() == "Seminuevo" ? CarpetaRemota + "\\SEMINUEVOS" : "";
+                                }      
 
                                 nuevaruta = rutareal.Trim() == "" ? nuevaruta.Trim() : rutareal.Trim() + "\\" + ArchivoRenombrado.Trim();
 
