@@ -1104,9 +1104,12 @@ namespace RegistraFactura
                                 //20200514
                                 tipo_auto = facturaenarchivo.Substring(0, 1) == "A" ? "Nuevo" : "Seminuevo";
 
-                                if (!isIntercambio && !isFlotilla) {
+                                string aplicaFlotilla = this.objDB.ConsultaUnSoloCampo("SELECT aplicaFlotilla FROM SICOP_APLICAFLOTILLA WHERE idAgenciaPortal ='" + id_agencia.Trim() + "'").Trim();
+
+                                if ((!isIntercambio && !isFlotilla) || (isFlotilla && aplicaFlotilla == "1"))
+                                {
                                     rutareal = tipo_auto.Trim() == "Seminuevo" ? CarpetaRemota + "\\SEMINUEVOS" : "";
-                                }      
+                                };
 
                                 nuevaruta = rutareal.Trim() == "" ? nuevaruta.Trim() : rutareal.Trim() + "\\" + ArchivoRenombrado.Trim();
 
