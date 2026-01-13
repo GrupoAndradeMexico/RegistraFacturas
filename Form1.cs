@@ -162,16 +162,57 @@ namespace RegistraFactura
                             #region Cancelacion
                             if (proceso.Trim() == "cancelacion")
                             {
-                                //Si la primer letra es A es factura de Auto Nuevo 
+                                //Si la primer letra es A es factura de Auto Nuevo
+                                string id_distribuidor = "";
                                 string tipo_auto = vte_docto.Substring(0, 1) == "A" ? "NUEVO" : "SEMINUEVO";
                                 string saux_tipo = tipo_auto == "NUEVO" ? "N'" : "S%'";
-                                Q = "Select dealerid from SICOP_DEALER_AGENCIA where id_agencia=" + id_agencia + " and tipo like '" + saux_tipo.Trim();
-                                string id_distribuidor = this.objDB.ConsultaUnSoloCampo(Q);
+                                string CarpetaRemota = "";
+
+                                if (!IsNullOrWhiteSpaceCompat(idCanalVenta))
+                                {
+                                    string agencia = (id_agencia ?? "").Trim().Replace("'", "''");
+                                    string canalEsc = idCanalVenta.Replace("'", "''");
+
+                                    string qPv =
+                                        "SELECT TOP 1 carpeta_remota " +
+                                        "FROM dbo.SICOPCONFIG_PV_CANAL " +
+                                        "WHERE activo = 1 " +
+                                        "  AND id_agencia = '" + agencia + "' " +
+                                        "  AND '" + canalEsc + "' LIKE '%' + marcadorCanal + '%' " +
+                                        "ORDER BY prioridad ASC";
+
+                                    string qPvAgencia =
+                                        "SELECT TOP 1 id_agenciaPtVenta " +
+                                        "FROM dbo.SICOPCONFIG_PV_CANAL " +
+                                        "WHERE activo = 1 " +
+                                        "  AND id_agencia = '" + agencia + "' " +
+                                        "  AND '" + canalEsc + "' LIKE '%' + marcadorCanal + '%' " +
+                                        "ORDER BY prioridad ASC";
+
+                                    string carpetaPv = (this.objDB.ConsultaUnSoloCampo(qPv) ?? "").Trim();
+                                    string agenciaPv = (this.objDB.ConsultaUnSoloCampo(qPvAgencia) ?? "").Trim();
+
+                                    // Si hay match, usa PV. Si no, queda base.
+                                    CarpetaRemota = !IsNullOrWhiteSpaceCompat(carpetaPv) ? carpetaPv : this.objDB.ConsultaUnSoloCampo("Select carpeta_remota From SICOPCONFIGXMAQUINA where activo='True' and numero_sucursal='" + id_agencia.Trim() + "'").Trim(); ;
+                                    if (!IsNullOrWhiteSpaceCompat(agenciaPv))
+                                    {
+                                        id_distribuidor = this.objDB.ConsultaUnSoloCampo("Select dealerid from SICOP_DEALER_AGENCIA where id_agencia=" + agenciaPv + " and tipo like '" + saux_tipo.Trim()).Trim();
+                                    }
+                                    else {
+                                        id_distribuidor = this.objDB.ConsultaUnSoloCampo("Select dealerid from SICOP_DEALER_AGENCIA where id_agencia=" + id_agencia + " and tipo like '" + saux_tipo.Trim()).Trim();
+                                    };
+                                }
+                                else
+                                {
+                                    Q = "Select dealerid from SICOP_DEALER_AGENCIA where id_agencia=" + id_agencia + " and tipo like '" + saux_tipo.Trim();
+                                    id_distribuidor = this.objDB.ConsultaUnSoloCampo(Q);
+                                    CarpetaRemota = this.objDB.ConsultaUnSoloCampo("Select carpeta_remota From SICOPCONFIGXMAQUINA where activo='True' and numero_sucursal='" + id_agencia.Trim() + "'").Trim();
+                                }
+
                                 if (id_distribuidor.Trim() != "")
                                 {
                                     string LineaEncabezado = quote + "IdDistribuidor" + quote + "," + quote + "Factura" + quote + "," + quote + "Vin" + quote;
                                     string LineaDetalle = quote + id_distribuidor.Trim() + quote + "," + quote + vte_docto.Trim() + quote + "," + quote + vte_serie.Trim() + quote;
-                                    string CarpetaRemota = this.objDB.ConsultaUnSoloCampo("Select carpeta_remota From SICOPCONFIGXMAQUINA where activo='True' and numero_sucursal='" + id_agencia.Trim() + "'").Trim();
                                     if (tipo_auto == "SEMINUEVO")
                                           CarpetaRemota = CarpetaRemota + "\\SEMINUEVOS";
                                     
@@ -222,7 +263,7 @@ namespace RegistraFactura
 
                                         try
                                         {
-                                            Comando = string.Format(Comando, Sicop, UsuarioBPRo1, BDBPRo1, Sentido, DirectorioArchivosSICOP.Trim(), "parametro_ocioso.txt", vte_serie.Trim());
+                                            Comando = string.Format(Comando, Sicop, UsuarioBPRo1, "123_GAZM_Zaragoza"/*BDBPRo1*/, Sentido, DirectorioArchivosSICOP.Trim(), "parametro_ocioso.txt", vte_serie.Trim());
                                             LanzaEjecucion(Comando); //lo deja en una sola carpeta.                                 
                                             Utilerias.WriteToLog("Se ejecutó: " + Comando, "ProcesaBitacora", Application.StartupPath + "\\Log.txt");
                                             //Esperamos un minuto para que le de tiempo a la interfaz a crear el archivo.
