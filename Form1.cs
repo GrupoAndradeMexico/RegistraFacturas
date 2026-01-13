@@ -149,6 +149,7 @@ namespace RegistraFactura
                         string proceso = lector["proceso"].ToString().Trim();
                         string id_local = lector["id_local"].ToString().Trim();
                         string canal_venta = lector["canal_venta"].ToString().Trim();
+                        string idCanalVenta = lector["ID_CANALVENTA"].ToString().Trim();
 
                         const string quote = "\"";
 
@@ -206,12 +207,6 @@ namespace RegistraFactura
                                     EsDesflote = this.objDBTablaPaso.ConsultaUnSoloCampo(Q);
                                 }
 
-                                //20230502 Solo marcamos cuando es desflote, pero si procesamos todo igual. Ver el caso de esta unidad: select * from Centralizacionv2.dbo.DIG_FACTURAAUX where vte_serie = '3N1CN7AD0JK437020' order by id_local 
-                                //el desflote solo fue marcado en la segunda facturación y en la tercera facturacion no se marcó como desflote.
-
-                                //if (EsDesflote.Trim() == "0" || EsDesflote.Trim() == "")
-                                //{//solo debe crear archivo de facturacion cuando no es desflote:
-
                                     Q = "Select ruta_ejecutable_BPro From SICOPCONFIGXMAQUINA where activo='True' and numero_sucursal='" + id_agencia.Trim() + "'";
                                     string RutaEjecutableBPro = this.objDB.ConsultaUnSoloCampo(Q).Trim();
                                     if (RutaEjecutableBPro.Trim() != "")
@@ -227,14 +222,12 @@ namespace RegistraFactura
 
                                         try
                                         {
-                                            //"C:\Users\omorales\Desktop\Business Pro SICOP.exe" SICOP GMI GAZM_ZARAGOZA Exporta C:\SiCoP\Generar\ SICOP_PROSPECTOS_TEMP_DMS.TXT 3N1CK3CD9DL259265 1000 25832
-                                            //"C:\Users\omorales\Desktop\Business Pro SICOP.exe" SICOP GMI GAZM_ZARAGOZA Exporta C:\SiCoP\Generar\ SICOP_PROSPECTOS_TEMP_DMS.TXT 3N1CK3CD9DL259265
                                             Comando = string.Format(Comando, Sicop, UsuarioBPRo1, BDBPRo1, Sentido, DirectorioArchivosSICOP.Trim(), "parametro_ocioso.txt", vte_serie.Trim());
                                             LanzaEjecucion(Comando); //lo deja en una sola carpeta.                                 
                                             Utilerias.WriteToLog("Se ejecutó: " + Comando, "ProcesaBitacora", Application.StartupPath + "\\Log.txt");
                                             //Esperamos un minuto para que le de tiempo a la interfaz a crear el archivo.
                                             Thread.Sleep(Convert.ToInt16(this.MinutosEsperaraBPro) * 60000); //20150505 En lugar del fsw_created.
-                                            string ArchivoSeekop = procesaArchivoGeneradoporBPro(carpeta_local_ventas.Trim() + mascara.Trim(), mascara.Trim(), id_local.Trim(), id_agencia.Trim());
+                                            string ArchivoSeekop = procesaArchivoGeneradoporBPro(carpeta_local_ventas.Trim() + mascara.Trim(), mascara.Trim(), id_local.Trim(), id_agencia.Trim(), idCanalVenta.Trim());
                                             if (ArchivoSeekop.Trim() != "")
                                             {
                                                 if (File.Exists(ArchivoSeekop))
@@ -1026,7 +1019,7 @@ namespace RegistraFactura
         }
 
 
-        public string  procesaArchivoGeneradoporBPro(string ArchivoGenerado, string SoloNombre, string id_bitacora, string id_agencia)
+        public string  procesaArchivoGeneradoporBPro(string ArchivoGenerado, string SoloNombre, string id_bitacora, string id_agencia, string idCanalVenta)
         {
             string res = "";
             string Q = "";
@@ -1059,6 +1052,7 @@ namespace RegistraFactura
                     string tipoventa = ObtenDeArchivo(ArchivoRenombrado, "TipoVenta");
                     string factura = ObtenDeArchivo(ArchivoRenombrado, "No_Factura");                     
                     string tipo_auto = ""; //20200514 Seminuevo o Nuevo;
+                    string idDealerSeekop = idprospenarchivo.Substring(0, 6);
 
                     try
                     {
@@ -1086,10 +1080,39 @@ namespace RegistraFactura
                             {
                                 FileInfo Archivo = new FileInfo(ArchivoRenombrado);
                                 ArchivoRenombrado = Archivo.Name.Trim();
-                                string nuevaruta = CarpetaRemota + "\\" + ArchivoRenombrado.Trim();
                                 string rutareal = ""; //ConsultaCarpetaDestino(idprospenarchivo.Trim()); //20200514
                                 bool isIntercambio = false;
                                 bool isFlotilla = false;
+
+                                // CarpetaRemota base (empresa-sucursal) ya viene de SICOPCONFIGXMAQUINA
+                                string carpetaBase = (CarpetaRemota ?? "").Trim();
+                                string canalVenta = (idCanalVenta ?? "").Trim();
+
+                                if (!IsNullOrWhiteSpaceCompat(canalVenta))
+                                {
+                                    string agencia = (id_agencia ?? "").Trim().Replace("'", "''");
+                                    string canalEsc = canalVenta.Replace("'", "''");
+
+                                    string qPv =
+                                        "SELECT TOP 1 carpeta_remota " +
+                                        "FROM dbo.SICOPCONFIG_PV_CANAL " +
+                                        "WHERE activo = 1 " +
+                                        "  AND id_agencia = '" + agencia + "' " +
+                                        "  AND '" + canalEsc + "' LIKE '%' + marcadorCanal + '%' " +
+                                        "ORDER BY prioridad ASC";
+
+                                    string carpetaPv = (this.objDB.ConsultaUnSoloCampo(qPv) ?? "").Trim();
+
+                                    // Si hay match, usa PV. Si no, queda base.
+                                    CarpetaRemota = !IsNullOrWhiteSpaceCompat(carpetaPv) ? carpetaPv : carpetaBase;
+                                }
+                                else
+                                {
+                                    CarpetaRemota = carpetaBase;
+                                }
+
+                                string nuevaruta = CarpetaRemota + "\\" + ArchivoRenombrado.Trim();
+
                                 if (tipoventa.IndexOf("INTERCAMBIOS") >- 1) 
                                 {
                                     isIntercambio = true;
@@ -1777,7 +1800,10 @@ namespace RegistraFactura
             }
         }
 
-
+        private static bool IsNullOrWhiteSpaceCompat(string s)
+        {
+            return s == null || s.Trim().Length == 0;
+        }
 
     }
 }
