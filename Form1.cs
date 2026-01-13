@@ -263,7 +263,7 @@ namespace RegistraFactura
 
                                         try
                                         {
-                                            Comando = string.Format(Comando, Sicop, UsuarioBPRo1, "123_GAZM_Zaragoza"/*BDBPRo1*/, Sentido, DirectorioArchivosSICOP.Trim(), "parametro_ocioso.txt", vte_serie.Trim());
+                                            Comando = string.Format(Comando, Sicop, UsuarioBPRo1, BDBPRo1, Sentido, DirectorioArchivosSICOP.Trim(), "parametro_ocioso.txt", vte_serie.Trim());
                                             LanzaEjecucion(Comando); //lo deja en una sola carpeta.                                 
                                             Utilerias.WriteToLog("Se ejecutó: " + Comando, "ProcesaBitacora", Application.StartupPath + "\\Log.txt");
                                             //Esperamos un minuto para que le de tiempo a la interfaz a crear el archivo.
